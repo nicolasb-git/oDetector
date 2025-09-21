@@ -12,8 +12,9 @@ __pycache__/
 .Python
 *.so
 
-# Output folder
-output/
+# Output folder (except .gitkeep)
+output/*
+!output/.gitkeep
 
 # IDE files
 .vscode/
